@@ -12,7 +12,10 @@ There are some oportunities:
 * PS. I'm not insisting that is the correct solution. I wrote it for my personal use. Perhaps, it will be imroved in the future.
 
 # Usage
-* It needs to be added to the html document
+* It needs to be added to the html document inside head tag
+```html
+<link rel="stylesheet" href="tabs.css">
+* It needs to be added to the html document before closing body tag
 ```html
 <script src="tabs.js"></script>
 ```
