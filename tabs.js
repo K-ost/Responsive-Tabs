@@ -6,7 +6,7 @@ class ResponsiveTabs {
   
   constructor(options) {
     this.el = options.el
-    this.collapse = options.collapse
+    this.collapse = options.collapse ? options.collapse : true
     this.size = options.size ? options.size : 750
   }
 
