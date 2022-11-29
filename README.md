@@ -12,12 +12,35 @@ There are some oportunities:
 * PS. Perhaps, it will be imroved in the future.
 
 # Usage
+```html
+  <div id="tabs">
+    <ul class="tabs">
+      <li><a href="#tab1">Tab 1</a></li>
+      <li><a href="#tab2">Tab 2</a></li>
+      <li><a href="#tab3">Tab 3</a></li>
+    </ul>
+    <div class="tabs-container">
+      <div class="tab-pane" id="tab1">
+        <h3>Tab 1</h3>
+      </div>
+      <div class="tab-pane" id="tab2">
+        <h3>Tab 2</h3>
+      </div>
+      <div class="tab-pane" id="tab3">
+        <h3>Tab 3</h3>
+      </div>
+    </div>
+  </div>
+  <script src="tabs.js"></script>
+```
+
 ```js script
 const tabs = new ResponsiveTabs({
   el: '#tabs',
   collapse: true,
   size: 750
 }).init()
+```
 
 # API Documentation
 Property  | Type    | Description
