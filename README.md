@@ -13,14 +13,16 @@ There are some oportunities:
 
 # Usage
 * It needs to be added to the html document inside head tag
+
 ```html
 <link rel="stylesheet" href="tabs.css">
 ```
 * It needs to be added to the html document before closing body tag
+
 ```html
 <script src="tabs.js"></script>
 ```
-
+* HTML code must be like this
 ```html
   <div id="tabs">
     <ul class="tabs">
