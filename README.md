@@ -15,6 +15,7 @@ There are some oportunities:
 * It needs to be added to the html document inside head tag
 ```html
 <link rel="stylesheet" href="tabs.css">
+```
 * It needs to be added to the html document before closing body tag
 ```html
 <script src="tabs.js"></script>
