@@ -12,7 +12,12 @@ There are some oportunities:
 * PS. Perhaps, it will be imroved in the future.
 
 # Usage
-* 
+```js script
+const tabs = new ResponsiveTabs({
+  el: '#tabs',
+  collapse: true,
+  size: 750
+}).init()
 
 # API Documentation
 Property  | Type    | Description
