@@ -17,7 +17,7 @@ It needs to be added to the html document inside head tag
 ```html
 <link rel="stylesheet" href="tabs.css">
 ```
-It needs to be added to the html document before closing body tag
+It needs to be added to the html document before </body> tag
 
 ```html
 <script src="tabs.js"></script>
@@ -44,7 +44,7 @@ HTML code must be like this
   </div>
 ```
 
-* It needs to be added to the custom js file
+It needs to be added to the custom js file
 ```js script
 const tabs = new ResponsiveTabs({
   el: '#tabs',
