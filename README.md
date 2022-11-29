@@ -9,9 +9,14 @@ There are some oportunities:
 - collapsible
 - change size
 
-* PS. Perhaps, it will be imroved in the future.
+* PS. I'm not insisting that is the correct solution. I wrote it for my personal use. Perhaps, it will be imroved in the future.
 
 # Usage
+* It needs to be added to the html document
+```html
+<script src="tabs.js"></script>
+```
+
 ```html
   <div id="tabs">
     <ul class="tabs">
@@ -31,9 +36,9 @@ There are some oportunities:
       </div>
     </div>
   </div>
-  <script src="tabs.js"></script>
 ```
 
+* It needs to be added to the custom js file
 ```js script
 const tabs = new ResponsiveTabs({
   el: '#tabs',
