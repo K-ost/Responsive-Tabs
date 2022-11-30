@@ -5,9 +5,7 @@ Responsive Tabs (using es6 classes)
 A very simple responsive tabs. It is based on ES6 classes.
 The desktop version behaves like regular tabs.
 The mobile version transforms to accordion.
-There are some oportunities:
-- collapsible
-- change size
+There are some oportunities like a collapsible and a changing size
 
 * PS. I'm not insisting that is the correct solution. I wrote it for my personal use. Perhaps, it will be imroved in the future.
 
