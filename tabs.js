@@ -1,3 +1,9 @@
+/*
+Responsive tabs
+By K-ost
+version 1.0
+*/
+
 class ResponsiveTabs {
 
   static tabsBody = document.querySelector('.tabs')
@@ -8,6 +14,9 @@ class ResponsiveTabs {
     this.el = options.el
     this.collapse = options.collapse ? options.collapse : true
     this.size = options.size ? options.size : 750
+
+    // Init call
+    this.init()
   }
 
   // reInit
@@ -21,6 +30,7 @@ class ResponsiveTabs {
       ResponsiveTabs.tabs[0].classList.add('active')
       ResponsiveTabs.panes.forEach(pane => pane.classList.remove('opened'))
       document.querySelectorAll('.tab-pane')[0].classList.add('opened')
+      document.querySelectorAll('.accordion-body').forEach(el => el.removeAttribute('style'))
     } else {
       ResponsiveTabs.tabsBody.style.display = 'none'
       document.querySelector('.tabs-container').classList.add('accordion')
@@ -106,10 +116,3 @@ class ResponsiveTabs {
   }
 
 }
-
-const tabs = new ResponsiveTabs({
-  el: '#tabs',
-  collapse: true,
-  size: 750
-}).init()
-

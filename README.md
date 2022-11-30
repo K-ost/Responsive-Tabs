@@ -54,8 +54,8 @@ const tabs = new ResponsiveTabs({
 ```
 
 # API Documentation
-Property  | Type    | Description
---------- | ------  | -------------
-el        | string  | ID of your element. Just like this '#id'
-collapse  | boolean | Collapsible. Only for accordion. Opening item the others are closing. Default value is true
-size      | number  | The size of the screen when tabs adapts to accordion. Default value is 750
+Property  | Type    | Description                                                           | Default value 
+--------- | ------  | --------------------------------------------------------------------- | -------------
+el        | string  | ID of your element. Just like this '#id'                              | -
+collapse  | boolean | Collapsible. Only for accordion. Opening item the others are closing. | true
+size      | number  | The size of the screen when tabs adapts to accordion.                 | 750
