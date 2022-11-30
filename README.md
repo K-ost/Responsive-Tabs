@@ -7,7 +7,7 @@ The desktop version behaves like regular tabs.
 The mobile version transforms to accordion.
 There are some oportunities like a collapsible and a changing size
 
-* PS. I'm not insisting that is the only correct solution. I have just written it for my personal use. Perhaps, it will be imroved in the future.
+PS. I'm not insisting that is the only correct solution. I have just written it for my personal use. Perhaps, it will be imroved in the future.
 
 # Usage
 It needs to be added to the html document inside head tag
